@@ -24,6 +24,16 @@
 // The maximum number that can be made with the remaining digits is "100".
 // So the answer is "1001".
 
+//----------------------------------
+
+// Constraints:
+
+// 1 <= s.length <= 100
+// s consists only of '0' and '1'.
+// s contains at least one '1'.
+
+//---------------------------
+
 //Solution
 
 /**
@@ -43,6 +53,8 @@ var maximumOddBinaryNumber = function (s) {
   }
   return charArr.join("");
 };
+
+//------------------------------
 
 // Explanation
 
